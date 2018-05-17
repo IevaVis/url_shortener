@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 
-gem 'rails', '4.2.5'
+gem 'rails'
 gem 'pg', '~> 0.15'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
@@ -19,8 +19,10 @@ group :development, :test do
   gem 'rspec'
   gem 'rspec-rails'
   gem 'shoulda-matchers'
-  gem 'factory_girl_rails'
+  gem 'factory_bot_rails'
   gem 'shoulda-callback-matchers'
+  gem 'rails-controller-testing'
+  gem 'capybara'
 end
 
 group :development do

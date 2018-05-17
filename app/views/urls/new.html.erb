@@ -1,0 +1,12 @@
+<%= form_for @url do |f| %>
+
+  <p>
+  	<!-- capybara needs a placeholder -->
+    <%= f.label "Add Your Long Url Here:" %>
+    <%= f.text_field :long_url, placeholder: "Long URL" %>
+  </p>
+
+  <p>
+    <%= f.submit "Get Short Url!" %>
+  </p>
+    <% end %>
